@@ -1,0 +1,49 @@
+ul {
+    display: inline-block;
+    margin: 0 50px;
+    padding: 0;
+    list-style-type: circle;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ulWrapper {
+    width: auto;
+    display: flex;
+    border: 5px groove;
+    border-radius: 5px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.done {
+    text-decoration: line-through;
+    color: red;
+}
+
+.wrapper button {
+    margin-left: 10px;
+}
+
+#userinput, #enter {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+#ulTitle {
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    text-align: center;
+}
